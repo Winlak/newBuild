@@ -1,7 +1,11 @@
 <template>
-  <slot />
+  <div>
+    <AppNavbar />
+
+    <main>
+      <slot />
+    </main>
+
+    <AppFooterType4 />
+  </div>
 </template>
-
-<script setup>
-
-</script>

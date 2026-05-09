@@ -10,4 +10,15 @@ dist
 .DS_Store
 npm-debug.log*
 yarn-debug.log*
-pnpm-debug.log*auto-git.sh
+pnpm-debug.log*
+
+# Local automation and browser test output
+auto-git.sh
+test-results/
+
+# Runtime data with private/user-submitted records
+.data/contact-requests.json
+.data/subscriptions.json
+.data/reviews.json
+.data/content/
+.data/**/*.sqlite
